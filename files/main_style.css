@@ -174,7 +174,7 @@
  }
  .wsite-header-elements { position: relative; }
  .wsite-header-elements:before { content: ""; position: absolute; top: 10px; right: 10px; bottom: 10px; left: 10px; z-index: 1; display: block; border: 1px solid rgba(145,159,160,0.3); pointer-events: none; }
- .wsite-header-section { padding: 35px; background-image: url(theme/images/default_header.jpg?1531969684); background-position: center center; background-size: cover; }
+ .wsite-header-section { padding: 35px; background-image: url(theme/images/default_header.jpg?1531969965); background-position: center center; background-size: cover; }
  .header-page .wsite-header-section { height: 440px; }
  .banner h2 { color: inherit; font-size: 32px; line-height: 1.2; }
  @media (max-width: 480px) {
