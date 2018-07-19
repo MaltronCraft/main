@@ -5,7 +5,7 @@
 
 
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
 		<meta name="google-site-verification" content="-QkBTbd4thrMN876QZnXR1r9fSph1sdif4K-lax5oLM" />
 <meta name="google-site-verification" content="_5tkKY25TnLmGpxlCIoFyFz5Vjjyo3fVNWFd73_o6PU" />
@@ -24,9 +24,8 @@ window.__lc.license = 9843890;
 		<link id="wsite-base-style" rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/sites.css?buildTime=1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/old/fancybox.css?1234" />
 <link rel="stylesheet" type="text/css" href="http://cdn2.editmysite.com/css/social-icons.css?buildtime=1234" media="screen,projection" />
-<link rel="stylesheet" type="text/css" href="files/main_style.css?1531924270" title="wsite-theme-css" />
-<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,700&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
-<link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
+<link rel="stylesheet" type="text/css" href="files/main_style.css?1531969684" title="wsite-theme-css" />
+<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,200,200italic,700,400italic,700italic&subset=latin,latin-ext' rel='stylesheet' type='text/css' />
 
 <style type='text/css'>
 .wsite-elements.wsite-not-footer:not(.wsite-header-elements) div.paragraph, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) p, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-block .product-title, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .product-description, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, .wsite-elements.wsite-not-footer:not(.wsite-header-elements) .wsite-form-field label, #wsite-content div.paragraph, #wsite-content p, #wsite-content .product-block .product-title, #wsite-content .product-description, #wsite-content .wsite-form-field label, #wsite-content .wsite-form-field label, .blog-sidebar div.paragraph, .blog-sidebar p, .blog-sidebar .wsite-form-field label, .blog-sidebar .wsite-form-field label {}
@@ -115,8 +114,8 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 			'',
 			'active',
 			false,
-			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\">\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\t{{#membership_required}}\n\t\t\tdata-membership-required=\"{{.}}\"\n\t\t{{\/membership_required}}\n\t\tclass=\"wsite-menu-item\"\n\t\t>\n\t\t{{{title_html}}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<div class=\"wsite-menu-wrap\" style=\"display:none\">\n\t<ul class=\"wsite-menu\">\n\t\t{{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n\t<\/ul>\n<\/div>\n","navigation\/flyout\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}}\n\tclass=\"wsite-menu-subitem-wrap {{#is_current}}wsite-nav-current{{\/is_current}}\"\n\t>\n\t<a\n\t\t{{^nonclickable}}\n\t\t\t{{^nav_menu}}\n\t\t\t\thref=\"{{url}}\"\n\t\t\t{{\/nav_menu}}\n\t\t{{\/nonclickable}}\n\t\t{{#target}}\n\t\t\ttarget=\"{{target}}\"\n\t\t{{\/target}}\n\t\tclass=\"wsite-menu-subitem\"\n\t\t>\n\t\t<span class=\"wsite-menu-title\">\n\t\t\t{{{title_html}}}\n\t\t<\/span>{{#has_children}}<span class=\"wsite-menu-arrow\">&gt;<\/span>{{\/has_children}}\n\t<\/a>\n\t{{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n"},
-			{}
+			{"navigation\/item":"<li {{#id}}id=\"{{id}}\"{{\/id}} class=\"wsite-menu-item-wrap\n    {{#is_current}}site-menu-active{{\/is_current}}\n    {{#has_children}}site-menu-parent{{\/has_children}}\">\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    {{#membership_required}}\n      data-membership-required=\"{{.}}\"\n    {{\/membership_required}}\n    {{#nonclickable}}data-dead-link{{\/nonclickable}}\n    class=\"wsite-menu-item {{#nonclickable}}dead-link{{\/nonclickable}}\"\n    >\n    {{{title_html}}}\n  <\/a>\n  {{#has_children}}{{> navigation\/flyout\/list}}{{\/has_children}}\n<\/li>\n","navigation\/flyout\/list":"<ul class=\"site-submenu\">\n  {{#children}}{{> navigation\/flyout\/item}}{{\/children}}\n<\/ul>\n","navigation\/flyout\/item":"<li\n  {{#id}}id=\"{{id}}\"{{\/id}}\n  class=\"\n    site-submenu-item\n    {{#is_current}}site-submenu-active{{\/is_current}}\n    {{#has_children}}site-submenu-parent{{\/has_children}}\n  \"\n>\n  <a\n    {{^nonclickable}}\n      {{^nav_menu}}\n        href=\"{{url}}\"\n      {{\/nav_menu}}\n    {{\/nonclickable}}\n    {{#target}}\n      target=\"{{target}}\"\n    {{\/target}}\n    class=\"site-submenu-link\"\n  >{{{title_html}}}<\/a>\n\n  {{#has_children}}\n    {{> navigation\/flyout\/list}}\n  {{\/has_children}}\n<\/li>\n"},
+			{"hasCustomMinicart":true}
 		)
 	}
 //-->
@@ -124,169 +123,368 @@ _W.setup_model_rpc({"rpc_namespace":"_W.CustomerAccounts.RPC","model_namespace":
 		
 		
 	</head>
-	<body class="no-header  wsite-page-mcn  full-width-on  wsite-theme-light"><div class="body-wrap">
+	<body class="no-header  wsite-page-mcn  full-width-on full-width-header-off  wsite-theme-light"><div class="body-wrap">
 
-	<div id="header">
-		<div class="nav-trigger hamburger">
-			<div class="open-btn">
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-				<span class="mobile"></span>
-			</div>
-		</div>
-		<div id="sitename"><span class="wsite-logo">
+    <div class="site-header">
+      <div class="site-header-item site-menu-toggle hamburger">
+        <div class="site-header-icon">
+          <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+            <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+            <g id="icon-menu" fill="#cccccc">
+            <path d="M3,5 L19,5 L19,6 L3,6 L3,5 Z M3,9 L19,9 L19,10 L3,10 L3,9 Z M3,13 L19,13 L19,14 L3,14 L3,13 Z M3,17 L19,17 L19,18 L3,18 L3,17 Z" id="ICN---NAV---MENU"></path>
+            </g>
+            </g>
+          </svg>
+          <span class="site-header-icon-text">Menu</span>
+        </div>
+      </div>
+
+      <div class="site-header-item site-cart">
+        
+        <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon-cart" fill="#cccccc">
+        <path d="M4,7 L18,7 L18,19 L4,19 L4,7 Z M5,8 L17,8 L17,18 L5,18 L5,8 Z M7,4.5 C7,3.11928813 8.11236572,2 9.50930035,2 L12.4906996,2 C13.876548,2 15,3.10966206 15,4.5 L15,7 L7,7 L7,4.5 Z M8,5 C8,3.8954305 8.89826062,3 9.99791312,3 L12.0020869,3 C13.1055038,3 14,3.88772964 14,5 L14,7 L8,7 L8,5 Z" id="ICN---NAV---CART"></path>
+        </g>
+        </g>
+        </svg>
+      </div>
+      <div class="site-logo"><span class="wsite-logo">
 
 	<a href="">
-		<img src="uploads/1/1/8/9/118935660/maltroncraft-logo-yt-art.png" alt="MaltronCraftNetwork" />
+	
+	<span id="wsite-title">MaltronCraftNetwork</span>
+	
 	</a>
 
 </span></div>
-	</div>
+      <div class="site-header-item site-search">
+        
+        <svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+          <g id="icon-search" fill="#cccccc">
+          <path d="M15,10 C15,7.23857625 12.7614237,5 10,5 C7.23857625,5 5,7.23857625 5,10 C5,12.7614237 7.23857625,15 10,15 C12.7614237,15 15,12.7614237 15,10 Z M4,10 C4,6.6862915 6.6862915,4 10,4 C13.3137085,4 16,6.6862915 16,10 C16,13.3137085 13.3137085,16 10,16 C6.6862915,16 4,13.3137085 4,10 Z" id="Oval"></path>
+          <polygon id="Path-2" points="17.9360378 19.1743946 18.6431446 18.4672878 13.6933971 13.5175404 12.9862904 14.2246471"></polygon>
+          </g>
+          </g>
+        </svg>
+      </div>
+    </div>
 
-	<div id="wrapper">
-		<div class="bg-wrapper">
-			<div id="navigation"><ul class="wsite-menu-default">
-		<li id="pg164200625981459723" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
+    <div id="navigation-dummy"><ul class="wsite-menu-default">
+		<li id="pg164200625981459723" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="index.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Home
+		  </a>
+		  
 		</li>
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="mcn.html"
-				class="wsite-menu-item"
-				>
-				MCN Department
-			</a>
-			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-238235806293237305"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="servers.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Servers
-		</span>
-	</a>
-	
+		<li id="active" class="wsite-menu-item-wrap
+		    site-menu-active
+		    site-menu-parent">
+		  <a
+		        href="mcn.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    MCN Department
+		  </a>
+		  <ul class="site-submenu">
+  <li
+  id="wsite-nav-238235806293237305"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="servers.html"
+    class="site-submenu-link"
+  >Servers</a>
+
 </li>
-<li id="wsite-nav-597572475640059201"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="whatwerunon.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			What We Use
-		</span>
-	</a>
-	
+<li
+  id="wsite-nav-597572475640059201"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="whatwerunon.html"
+    class="site-submenu-link"
+  >What We Use</a>
+
 </li>
-<li id="wsite-nav-237838171949132890"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="builders.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Builders
-		</span>
-	</a>
-	
+<li
+  id="wsite-nav-237838171949132890"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="builders.html"
+    class="site-submenu-link"
+  >Builders</a>
+
 </li>
 
-	</ul>
-</div>
-
-		</li>
-		<li id="pg705716557359630071" class="wsite-menu-item-wrap">
-			<a
-						href="partnership-department.html"
-				class="wsite-menu-item"
-				>
-				Partnership Department
-			</a>
-			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-648514781926208812"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partners.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partners
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-773380954816167370"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partnership-servers.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partner Servers
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-462432774259220375"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partnership-request-form.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partnership Request Form
-		</span>
-	</a>
-	
-</li>
-
-	</ul>
-</div>
+</ul>
 
 		</li>
-		<li id="pg281890001287010645" class="wsite-menu-item-wrap">
-			<a
-						href="contact-us.html"
-				class="wsite-menu-item"
-				>
-				Contact Us
-			</a>
-			
+		<li id="pg705716557359630071" class="wsite-menu-item-wrap
+		    
+		    site-menu-parent">
+		  <a
+		        href="partnership-department.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Partnership Department
+		  </a>
+		  <ul class="site-submenu">
+  <li
+  id="wsite-nav-648514781926208812"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partners.html"
+    class="site-submenu-link"
+  >Partners</a>
+
+</li>
+<li
+  id="wsite-nav-773380954816167370"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partnership-servers.html"
+    class="site-submenu-link"
+  >Partner Servers</a>
+
+</li>
+<li
+  id="wsite-nav-462432774259220375"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partnership-request-form.html"
+    class="site-submenu-link"
+  >Partnership Request Form</a>
+
+</li>
+
+</ul>
+
 		</li>
-		<li id="pg677475507138787238" class="wsite-menu-item-wrap">
-			<a
-						href="blog.html"
-				class="wsite-menu-item"
-				>
-				Blog
-			</a>
-			
+		<li id="pg281890001287010645" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="contact-us.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Contact Us
+		  </a>
+		  
+		</li>
+		<li id="pg677475507138787238" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="blog.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Blog
+		  </a>
+		  
 		</li>
 </ul>
 </div>
-			<div id="content-wrapper">
-				<div id="wsite-content" class="wsite-elements wsite-not-footer">
+    <div class="site-navigation"><ul class="wsite-menu-default">
+		<li id="pg164200625981459723" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="index.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Home
+		  </a>
+		  
+		</li>
+		<li id="active" class="wsite-menu-item-wrap
+		    site-menu-active
+		    site-menu-parent">
+		  <a
+		        href="mcn.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    MCN Department
+		  </a>
+		  <ul class="site-submenu">
+  <li
+  id="wsite-nav-238235806293237305"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="servers.html"
+    class="site-submenu-link"
+  >Servers</a>
+
+</li>
+<li
+  id="wsite-nav-597572475640059201"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="whatwerunon.html"
+    class="site-submenu-link"
+  >What We Use</a>
+
+</li>
+<li
+  id="wsite-nav-237838171949132890"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="builders.html"
+    class="site-submenu-link"
+  >Builders</a>
+
+</li>
+
+</ul>
+
+		</li>
+		<li id="pg705716557359630071" class="wsite-menu-item-wrap
+		    
+		    site-menu-parent">
+		  <a
+		        href="partnership-department.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Partnership Department
+		  </a>
+		  <ul class="site-submenu">
+  <li
+  id="wsite-nav-648514781926208812"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partners.html"
+    class="site-submenu-link"
+  >Partners</a>
+
+</li>
+<li
+  id="wsite-nav-773380954816167370"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partnership-servers.html"
+    class="site-submenu-link"
+  >Partner Servers</a>
+
+</li>
+<li
+  id="wsite-nav-462432774259220375"
+  class="
+    site-submenu-item
+    
+    
+  "
+>
+  <a
+        href="partnership-request-form.html"
+    class="site-submenu-link"
+  >Partnership Request Form</a>
+
+</li>
+
+</ul>
+
+		</li>
+		<li id="pg281890001287010645" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="contact-us.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Contact Us
+		  </a>
+		  
+		</li>
+		<li id="pg677475507138787238" class="wsite-menu-item-wrap
+		    
+		    ">
+		  <a
+		        href="blog.html"
+		    
+		    class="wsite-menu-item "
+		    >
+		    Blog
+		  </a>
+		  
+		</li>
+</ul>
+</div>
+
+    <div id="wrapper">
+      <div id="content-wrapper" class="main-content">
+        <div id="wsite-content" class="wsite-elements wsite-not-footer">
 	<div class="wsite-section-wrap">
 	<div class="wsite-section wsite-body-section wsite-background-9"  >
 		<div class="wsite-section-content">
-					<div class="container">
+          <div class="container">
 			<div class="wsite-section-elements">
 				<h2 class="wsite-content-title" style="text-align:left;">MaltronCraft Network (MCN) Department</h2>
 
@@ -331,166 +529,25 @@ window.__lc.license = 9843890;
 </div>
 			</div>
 		</div>
-				</div>
+        </div>
 
 	</div>
 </div>
 
 </div>
 
-			</div>
-		</div>
-		<div id="footer">
-			<div id="footer-content">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="site web gratuit">Weebly</a></div>
-		</div>
-	</div>
+      </div>
 
-	<div class="navmobile-wrapper">
-		<div id="navmobile" class="nav"><ul class="wsite-menu-default">
-		<li id="pg164200625981459723" class="wsite-menu-item-wrap">
-			<a
-						href="index.html"
-				class="wsite-menu-item"
-				>
-				Home
-			</a>
-			
-		</li>
-		<li id="active" class="wsite-menu-item-wrap">
-			<a
-						href="mcn.html"
-				class="wsite-menu-item"
-				>
-				MCN Department
-			</a>
-			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-238235806293237305"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="servers.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Servers
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-597572475640059201"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="whatwerunon.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			What We Use
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-237838171949132890"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="builders.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Builders
-		</span>
-	</a>
-	
-</li>
+      <div id="footer">
+        <div id="footer-content">Create a <a target="_top" href="http://www.weebly.com/">free web site</a> with <a target="_top" href="http://www.weebly.com/" title="free web site">Weebly</a></div>
+      </div>
+    </div>
+  </div>
 
-	</ul>
-</div>
-
-		</li>
-		<li id="pg705716557359630071" class="wsite-menu-item-wrap">
-			<a
-						href="partnership-department.html"
-				class="wsite-menu-item"
-				>
-				Partnership Department
-			</a>
-			<div class="wsite-menu-wrap" style="display:none">
-	<ul class="wsite-menu">
-		<li id="wsite-nav-648514781926208812"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partners.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partners
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-773380954816167370"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partnership-servers.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partner Servers
-		</span>
-	</a>
-	
-</li>
-<li id="wsite-nav-462432774259220375"
-	class="wsite-menu-subitem-wrap "
-	>
-	<a
-				href="partnership-request-form.html"
-		class="wsite-menu-subitem"
-		>
-		<span class="wsite-menu-title">
-			Partnership Request Form
-		</span>
-	</a>
-	
-</li>
-
-	</ul>
-</div>
-
-		</li>
-		<li id="pg281890001287010645" class="wsite-menu-item-wrap">
-			<a
-						href="contact-us.html"
-				class="wsite-menu-item"
-				>
-				Contact Us
-			</a>
-			
-		</li>
-		<li id="pg677475507138787238" class="wsite-menu-item-wrap">
-			<a
-						href="blog.html"
-				class="wsite-menu-item"
-				>
-				Blog
-			</a>
-			
-		</li>
-</ul>
-</div>
-	</div>
-
-</div>
-
-
-<script language="javascript" src="files/theme/plugins.js"></script>
-<script language="javascript" src="files/theme/custom.js"></script>
-<script language="javascript" src="files/theme/mobile.js"></script>
-
+  <script src="files/theme/plugins.js"></script>
+  <script src="files/theme/jquery.pxuMenu.js"></script>
+  <script src="files/theme/custom.js"></script>
+  <script src="files/theme/mobile.js"></script>
     <div id="customer-accounts-app"></div>
     <script src="http://cdn2.editmysite.com/js/site/main-customer-accounts-site.js?buildTime=1234"></script>
 

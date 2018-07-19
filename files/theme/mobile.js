@@ -46,9 +46,9 @@ Weebly.mobile_navigation = (function($) {
 
           cb();
           }
-
-
-
+          
+          
+          
       $o.on('webkitTransitionEnd', onTransistionEnd);
       };
 
@@ -230,7 +230,7 @@ Weebly.mobile_navigation = (function($) {
           '-webkit-overflow-scrolling': 'touch'
         });
       }
-
+      
       };
 
   /**
@@ -318,11 +318,8 @@ Weebly.mobile_navigation = (function($) {
           return false;
         });
 
-
-        if ($parentAnchor.attr("href")) {
-          var $sideMenuRoot = $parentAnchor.clone(true, true);
-          var $rootLink = $('<li class="wsite-menu-master-item"></li>').html($sideMenuRoot);
-        }
+        var $sideMenuRoot = $parentAnchor.clone(true, true);
+        var $rootLink = $('<li class="wsite-menu-master-item"></li>').html($sideMenuRoot);
 
         $ul.prepend($rootLink);
         $ul.prepend($backLink);
@@ -402,7 +399,7 @@ Weebly.mobile_navigation = (function($) {
 
   // dom ready
   $(function() {
-
+    
     setTimeout(function(){
       initBody();
       init();
