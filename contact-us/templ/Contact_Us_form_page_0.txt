@@ -6,65 +6,78 @@
       <title >Form Page: Contact_Us</title>
       <meta name='generator' content='Simfatic Forms 5.0.6.450'>
       <script src='scripts/jquery-1.7.2.min.js' type='text/javascript'></script>
+      <script src='scripts/globalize.js' type='text/javascript'></script>
+      <script src='scripts/jquery.sim.FormCalc.js' type='text/javascript'></script>
       <script src='scripts/sfm_validatorv7.js' type='text/javascript'></script>
       <link rel='stylesheet' type='text/css' href='style/Contact_Us.css?r=%sfm_css_rand%'>
    </head>
    <body id='sfm_Contact_Us_body'>
       <form id='Contact_Us' class='sfm_form' novalidate='novalidate' method='post' action='%sfm_self_script%' accept-charset='UTF-8'>
-         <div id='Contact_Us_errorloc' class='error_strings' style='width:300px;text-align:left'>%sfm_error_display_loc%</div>
+         <div id='Contact_Us_errorloc' class='error_strings' style='width:259px;text-align:left'>%sfm_error_display_loc%</div>
          <div id='Contact_Us_outer_div_p1' class='form_outer_div'>
             <div style='position:relative' id='Contact_Us_inner_div'>
                <input type='hidden' name='sfm_form_submitted' value='yes'>
                <input type='hidden' name='%_sfm_form_id_iput_var_%' value='%_sfm_form_id_iput_value_%'>
                <input type='text' name='tde6032d6c83a987d660d' id='tde6032d6c83a987d660d'>
-               <div id='heading_container' class='form_subheading'>
-                  <h2 id='heading' class='form_subheading'>Contact Us<br></h2>
+               <div id='formsection_0_0'>
+                  <div id='heading_container' class='form_subheading'>
+                     <h2 id='heading' class='form_subheading'>Contact Us<br></h2>
+                  </div>
+                  <div id='FirstName_container' class='sfm_element_container'>
+                     <input type='text' name='FirstName' id='FirstName' class='sfm_textbox_common sfm_textbox' size='20' value='%FirstName%'>
+                  </div>
+                  <div id='LastName_container' class='sfm_element_container'>
+                     <input type='text' name='LastName' id='LastName' class='sfm_textbox_common sfm_textbox' size='20' value='%LastName%'>
+                  </div>
+                  <div id='label3_container' class='sfm_form_label'>
+                     <label id='label3' for='Email'>Email</label>
+                  </div>
+                  <div id='Email_container' class='sfm_element_container'>
+                     <input type='email' name='Email' id='Email' class='sfm_textbox_common sfm_textbox' size='20' value='%Email%'>
+                  </div>
+                  <div id='MCVersions_container' class='sfm_element_container'>
+                     <select name='MCVersions' id='MCVersions' size='1'>
+                        <option value='What editions do you play on?' %d1859dfad66b71cf2e3ee132032a92fa%>What editions do you play on?</option>
+                        <option value='MCPE/Win 10 (Bedrock)' %a6697b50f9e39bca40f1ffe5378b388a%>MCPE/Win 10 (Bedrock)</option>
+                        <option value='MC Java' %05cbc534744da93e5c9ba16114d9bb24%>MC Java</option>
+                        <option value='Both' %2b990161ddcfb223bfa71de56dea2f24%>Both</option>
+                     </select>
+                  </div>
                </div>
-               <div id='label_container' class='sfm_form_label'>
-                  <label id='label' for='Name'>First</label>
+               <div id='formsection_0_174'>
+                  <div id='UsernameBedrock_container' class='sfm_element_container'>
+                     <input type='text' name='UsernameBedrock' id='UsernameBedrock' class='sfm_textbox_common sfm_textbox' size='20' value='%UsernameBedrock%'>
+                  </div>
                </div>
-               <div id='Name_container' class='sfm_element_container'>
-                  <input type='text' name='Name' id='Name' class='sfm_textbox_common sfm_textbox' size='20' value='%Name%'>
+               <div id='formsection_0_231'>
+                  <div id='UsernameJava_container' class='sfm_element_container'>
+                     <input type='text' name='UsernameJava' id='UsernameJava' class='sfm_textbox_common sfm_textbox' size='20' value='%UsernameJava%'>
+                  </div>
                </div>
-               <div id='label1_container' class='sfm_form_label'>
-                  <label id='label1' for='Name2'>Last</label>
+               <div id='formsection_0_300'></div>
+               <div id='formsection_0_303'>
+                  <div id='label2_container' class='sfm_form_label'>
+                     <label id='label2' for='Message'>Message</label>
+                  </div>
+                  <div id='Message_container' class='sfm_element_container'><textarea name='Message' id='Message' class='sfm_textbox_common sfm_textarea' cols='50' rows='10'>%Message%</textarea></div>
                </div>
-               <div id='Name2_container' class='sfm_element_container'>
-                  <input type='text' name='Name2' id='Name2' class='sfm_textbox_common sfm_textbox' size='20' value='%Name2%'>
-               </div>
-               <div id='label3_container' class='sfm_form_label'>
-                  <label id='label3' for='Email'>Email</label>
-               </div>
-               <div id='Email_container' class='sfm_element_container'>
-                  <input type='email' name='Email' id='Email' class='sfm_textbox_common sfm_textbox' size='20' value='%Email%'>
-               </div>
-               <div id='label4_container' class='sfm_form_label'>
-                  <label id='label4' for='Name3'>Username for MCPE/Win 10</label>
-               </div>
-               <div id='Name3_container' class='sfm_element_container'>
-                  <input type='text' name='Name3' id='Name3' class='sfm_textbox_common sfm_textbox' size='20' value='%Name3%'>
-               </div>
-               <div id='label5_container' class='sfm_form_label'>
-                  <label id='label5' for='Name4'>Username for Java</label>
-               </div>
-               <div id='Name4_container' class='sfm_element_container'>
-                  <input type='text' name='Name4' id='Name4' class='sfm_textbox_common sfm_textbox' size='20' value='%Name4%'>
-               </div>
-               <div id='label2_container' class='sfm_form_label'>
-                  <label id='label2' for='Message'>Message</label>
-               </div>
-               <div id='Message_container' class='sfm_element_container'><textarea name='Message' id='Message' class='sfm_textbox_common sfm_textarea' cols='50' rows='10'>%Message%</textarea></div>
+               <div id='formsection_0_421'></div>
             </div>
          </div>
-<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Web form powered by <a style='text-decoration:none;' rel='nofollow' href='http://simfatic.com/form-software/'>Simfatic Forms</a> - web form design software</div>
+<div class='sfm_cr_box' style='padding:3px; width:350px;cursor:default'>Built with <a rel='nofollow' style='text-decoration:none;' href='http://simfatic.com/form-software/html-form-generator.html'>Simfatic Forms</a> online form builder software (Reg version does not add this line).</div>
       </form>
       <script type='text/javascript'>
+$('#formsection_0_174').dispCondition('is_selected(MCVersions,"MCPE/Win 10 (Bedrock)") && is_selected(MCVersions,"Both")','Contact_Us');
+$('#formsection_0_231').dispCondition('is_selected(MCVersions,"MC Java") && is_selected(MCVersions,"Both")','Contact_Us');
+      </script>
+      <script type='text/javascript'>
 var Contact_UsValidator = new Validator("Contact_Us");
-Contact_UsValidator.addValidation("Name",{required:true,message:"Please enter your First name."} );
-Contact_UsValidator.addValidation("Name2",{required:true,message:"Please enter in your Last name."} );
+Contact_UsValidator.addValidation("FirstName",{required:true,message:"Please enter your First name."} );
+Contact_UsValidator.addValidation("LastName",{required:true,message:"Please enter in your Last name."} );
 Contact_UsValidator.addValidation("Email",{email:true,message:"Please enter a valid email to reply back to you."} );
-Contact_UsValidator.addValidation("Name3",{required:true,message:"Please enter your MCPE/Win 10 username. If you dont have one type \"none\""} );
-Contact_UsValidator.addValidation("Name4",{required:true,message:"Please enter your MC Java username. If you dont have one type \"none\""} );
+Contact_UsValidator.addValidation("MCVersions",{dontselect:"What editions do you play on?",message:"Please select an option for MCVersions"} );
+Contact_UsValidator.addValidation("UsernameBedrock",{required:true,message:"Please enter your MCPE/Win 10 username. If you dont have one type \"none\""} );
+Contact_UsValidator.addValidation("UsernameJava",{required:true,message:"Please enter your MC Java username. If you dont have one type \"none\""} );
 Contact_UsValidator.addValidation("Message",{required:true,message:"Please enter your message."} );
       </script>
    </body>
